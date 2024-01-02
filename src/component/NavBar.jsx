@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="header-nav-area d-none d-lg-block sticky-nav">
+    <div className="header-nav-area  d-lg-block sticky-nav">
       <div className="container">
         <div className="header-nav">
           <div className="main-menu position-relative">

@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
+
 const Checkout = () => {
   return (
     <div className="container">
-      <h1 className="text-center my-title">CheckOut</h1>
+      <h1 className="text-center my-title my-4">CheckOut</h1>
       <div className="row">
         <div className="col-md-7">
           <h3>Billing Details</h3>
@@ -111,7 +112,7 @@ const Checkout = () => {
             <hr />
             <div className="d-flex justify-content-between">
               <p className="text-dark fw-bold fs-5">Total</p>
-              <p className="text-primary fw-bolder">$100</p>
+              <p className="text-primary fw-bolder">$200</p>
             </div>
             <hr />
             <h5 className="fw-bold text-dark">Direct bank transfer</h5>

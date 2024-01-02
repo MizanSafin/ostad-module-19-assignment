@@ -103,6 +103,17 @@ input {
   outline: 0;
 }
 
+.blog-img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .productComp {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 header {
   background-color: #252525;
 }
@@ -476,7 +487,7 @@ header .main-menu ul li .mega-menu li ul li:last-child a {
   max-width: 100%;
 }
 .my-title {
-  font-size: 60px;
+  font-size: 40px;
 }
 .add-pos {
   bottom: 40px;

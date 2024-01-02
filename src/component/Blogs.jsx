@@ -9,7 +9,7 @@ const Blogs = () => {
           <div className="col">
             <div className="rounded">
               <img
-                className="w-100 rounded"
+                className="w-100 blog-img rounded"
                 src="/src/assets/images/001.webp"
                 alt=""
               />
@@ -37,7 +37,7 @@ const Blogs = () => {
           <div className="col">
             <div className="rounded">
               <img
-                className="w-100 rounded"
+                className="w-100 rounded blog-img"
                 src="/src/assets/images/002.webp"
                 alt=""
               />
@@ -65,7 +65,7 @@ const Blogs = () => {
           <div className="col">
             <div className="rounded">
               <img
-                className="w-100 rounded"
+                className="w-100 rounded blog-img"
                 src="/src/assets/images/001.webp"
                 alt=""
               />
@@ -93,7 +93,7 @@ const Blogs = () => {
           <div className="col">
             <div className="rounded">
               <img
-                className="w-100 rounded"
+                className="w-100 rounded blog-img"
                 src="/src/assets/images/003.webp"
                 alt=""
               />
@@ -121,7 +121,7 @@ const Blogs = () => {
           <div className="col">
             <div className="rounded">
               <img
-                className="w-100 rounded"
+                className="w-100 rounded blog-img"
                 src="/src/assets/images/002.webp"
                 alt=""
               />
@@ -149,7 +149,7 @@ const Blogs = () => {
           <div className="col">
             <div className="rounded">
               <img
-                className="w-100 rounded"
+                className="w-100 rounded blog-img"
                 src="/src/assets/images/003.webp"
                 alt=""
               />

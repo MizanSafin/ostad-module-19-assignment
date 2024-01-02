@@ -4,8 +4,8 @@ const Registration = () => {
   return (
     <div className="container w-75 mt-5 pb-4">
       <div className="row justify-content-center">
-        <h1 className="text-center">Registration</h1>
-        <div className="col-md-6 border p-4 shadow">
+        <h1 className="text-center mb-4">Registration</h1>
+        <div className="col-md-6 border px-4 pt-5 shadow">
           <Form>
             <Row>
               <Col>

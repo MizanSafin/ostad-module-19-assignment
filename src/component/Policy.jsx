@@ -2,8 +2,8 @@ import React from "react";
 
 const Policy = () => {
   return (
-    <div className="container w-75">
-      <h1>This our term and policy</h1>
+    <div className="container w-100 p-4">
+      <h1 className="my-4 pb-3">This our term and policy</h1>
       <div className="row">
         <div className="col-md-7">
           <h4 className="text-dark fw-bold">Return and Refund Condition</h4>
@@ -18,7 +18,7 @@ const Policy = () => {
           </p>
         </div>
         <div className="col-md-7">
-          <h4 className="text-dark fw-bold">Our Policy</h4>
+          <h4 className="text-dark fw-bold mt-3">Our Policy</h4>
           <p className="text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
             neque illum cumque ab blanditiis natus dicta sunt officiis numquam,

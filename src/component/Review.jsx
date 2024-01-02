@@ -3,7 +3,7 @@ import React from "react";
 const Review = () => {
   return (
     <div className="container w-75 py-4">
-      <h1>Latest Reviews</h1>
+      <h1 className="my-5">Latest Reviews</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="border p-2">

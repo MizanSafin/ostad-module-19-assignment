@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 import { Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 const Contact = () => {
-    return (
-        <div className="container w-50">
-      <h1>Send A Quest</h1>
+  return (
+    <div className="container p-5">
+      <h1 className="mb-4">Send A Quest</h1>
       <Form>
         <Row>
           <Col md={6}>
@@ -40,14 +40,14 @@ const Contact = () => {
           />
         </FormGroup>
 
-        <div className="text-center">
-          <button type="button" className="fs-4 px-3 btn btn-primary">
+        <div className="text-start">
+          <button type="button" className="fs-4 px-3 btn btn-primary mt-3">
             Send Message
           </button>
         </div>
       </Form>
     </div>
-    );
+  );
 };
 
 export default Contact;

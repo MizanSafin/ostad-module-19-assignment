@@ -10,9 +10,9 @@ const ProductCompo = () => {
     })();
   });
   return (
-    <div className="container">
-      <h1>Our All product</h1>
-      <div className="row row-cols-1 row-cols-md-4 g-4">
+    <div className="container my-3 productComp">
+      <h1 className="my-4">Our All product</h1>
+      <div className="row row-cols-1 row-cols-md-4 g-3 ">
         {data.map((product, i) => (
           <div key={i} className="col">
             <div className="card h-100">

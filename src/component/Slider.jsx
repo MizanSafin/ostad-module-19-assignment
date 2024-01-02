@@ -63,7 +63,7 @@ const Slider = (args) => {
     );
   });
   return (
-    <div className=" w-100 d-flex justify-content-center">
+    <div className="container-fluid mt-0">
       <Carousel
         activeIndex={activeIndex}
         next={next}
