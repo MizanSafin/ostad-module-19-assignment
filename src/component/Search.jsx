@@ -11,7 +11,7 @@ const Search = () => {
   });
   return (
     <div className="container">
-      <h1>Your searches product</h1>
+      <h1 className="my-4">Your searches product</h1>
       <div className="row row-cols-1 row-cols-md-4 g-4">
         {data.map((product, i) => (
           <div key={i} className="col">

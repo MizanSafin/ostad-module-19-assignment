@@ -108,6 +108,9 @@ input {
   object-fit: cover;
 }
 
+.welcome-text {
+  font-family: "mv boli", sans-serif;
+}
 @media screen and (max-width: 768px) {
   .productComp {
     padding-left: 50px;

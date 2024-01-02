@@ -7,7 +7,7 @@ const Header = () => {
     <div className="main-wrapper">
       <header>
         <div className="header-top">
-          <div className="container">
+          <div className="container mb-2">
             <div className="row justify-content-between align-items-center">
               <div className="col">
                 <div className="welcome-text">
@@ -16,7 +16,7 @@ const Header = () => {
               </div>
               <div className="col d-none d-lg-block">
                 <div className="top-nav">
-                  <ul>
+                  <ul className="">
                     <li>
                       <Link to="tel:0123456789">
                         <i className="fa fa-phone"></i> +012 3456 789
@@ -24,7 +24,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link to="mailto:demo@example.com">
-                        <i className="fa fa-envelope-o"></i> demo@example.com
+                        <i className="fa fa-envelope mb-0"></i> demo@example.com
                       </Link>
                     </li>
                     <li>
